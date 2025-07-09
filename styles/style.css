@@ -1,0 +1,41 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* For Everyone */
+
+
+/* Greeting Style */
+header{
+    width: 1320px;
+    background-image: url("../images/Banner Image.png");
+    margin:0 auto;
+    background-position: cover;
+    background-size: cover;
+}
+.greeting{
+    font-size: 32px;
+    font-weight: normal;
+    text-align: center;
+    color: #FFFFFF;
+    
+    
+}
+
+.new-year-greeting{
+    margin-top: 177px;
+    padding-top: 177px;
+    
+}
+.party{
+    font-size: 73px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 344px;
+    padding-right: 344px;
+    text-align: center;
+}
