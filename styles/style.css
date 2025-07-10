@@ -1,5 +1,6 @@
-.open-sans-normal {
-  font-family: "Open Sans", sans-serif;
+
+.merriweather-normal {
+  font-family: "Merriweather", serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
@@ -38,4 +39,255 @@ header{
     padding-left: 344px;
     padding-right: 344px;
     text-align: center;
+}
+
+/* Holiday Dealas Style */
+
+.holiday-off{
+    font-weight: bold;
+    color: #FF0000;
+    text-align: center;
+    font-size: 88px;
+}
+.holiday-deals{
+    font-weight: 400;
+    font-size: 24px;
+    color: #FF0000;
+    text-align: center;
+    padding-top: 48px;
+}
+.holiday-catagories{
+    font-weight: bold;
+    font-size: 48px;
+    color:#070211 ;
+    text-align: center;
+}
+.holiday-photo{
+    display: block;
+    margin: 0 auto;
+}
+
+/* Welcome Part Style */
+.midnight-party{
+    max-width: 1320px;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    background-image: url("../images/Group 100.png");
+}
+.welcome{
+    font-weight: bold;
+    font-size: 64px;
+    margin-left: 126px;
+    margin-right: 552px;
+    margin-top: 256px;
+    color: #FFFFFF;
+    padding-top: 126px;
+    
+
+}
+.part-description{
+    color: #FFFFFF;
+    margin-left: 126px;
+    margin-right: 497px;
+    font-size: 18px;
+
+}
+.party-join{
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-left: 158px;
+}
+
+/* Hotel Style */
+.hotel{
+    max-width:1320px ;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+    background-color: #ffe8e8;
+    margin-top: 120px;
+    border-radius: 16px;
+}
+.section-3 span{
+    color: #FF0000;
+    font-weight: 600px; 
+}
+.section-3 h3{
+    color: #070211;
+    font-size: 32px;
+}
+.hotel-button{
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 16px 32px;
+    border-radius: 8px ;
+    border: none;
+    margin-bottom: 110px;
+    margin-top: 48px;
+}
+
+/* New Year Best Offer Style */
+.section-4{
+    max-width: 1320px;
+    padding: 120px 140px;
+    margin: 0 auto;
+}
+.best-offer2025{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: space-around;
+}
+.display-block{
+    display: block;
+}
+.new-offer{
+    color: #FF0000;
+    font-weight: 300;
+    font-size: 24px;
+}
+.coming-soon{
+    color: #070211;
+    font-size: 48px;
+}
+.offer-description{
+    color: #070211;
+    font-size: 20px;
+    align-items: center;
+}
+.offer-img{
+    margin-right: 80px;
+    border: 15px solid  red ;
+    height: 365px;
+    border-radius: 50%;
+    padding: 40px;
+}
+
+.year{
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+/* Holidays Sales Style */
+.section-5{
+    margin-top: 120px ;
+}
+.holiday-sales{
+   max-width: 1320px;
+   text-align: center; 
+   margin: 0 auto;
+   
+   
+}
+.holiday-sales h4{
+   font-weight: 300;
+   font-size: 24px;
+   color: #070211; 
+   padding:0px;
+}
+.holiday-sales h2{
+    color: #070211;
+    font-size: 72px;
+    font-weight: bold;
+    padding:0px;
+}
+.holiday-sales h2 span{
+    color: #FF0000;
+}
+.holiday-sales p{
+    font-weight: 300;
+    font-size: 20px;
+    color: #070211;
+    padding:0px;  
+}
+/* Gift Style */
+.section-6{
+    max-width: 1320px;
+    max-height: 1163px;
+    margin: 0 auto;
+}
+.gift-container{
+    margin-left: 140px ;
+    margin-top:120px ;
+}
+.gift-container h3{
+    font-weight: 200;
+    font-size: 24px;
+    text-align: left;
+    color: #FF0000;
+}
+.gift-container h2{
+    font-weight: bold;
+    font-size: 48px;
+    color: #070211;
+    text-align: left;
+}
+.gift-container p{
+    color: #070211;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: left;
+}
+.gift-items{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    
+}
+
+/* Subscribe Style */
+.section-7{
+    max-width: 1320px;
+    background-color: #ffe8e8;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.subscribe-img{
+    padding: 80px 585px 10px ;
+}
+.subscribe-container{
+    text-align: center;
+}
+.subscribe-title{
+    font-size: 48px;
+    color: #070211;
+    margin-left: 404px;
+    margin-right: 404px;
+}
+.subscribe-describtion{
+    margin-left: 212px;
+    margin-right: 212px;
+    font-size: 20px;
+    color: #070211;
+}
+.email-submit{
+   margin-bottom: 150px;
+   padding-left: 336px;
+   padding-right: 336px;
+   padding-bottom: 80px;
+}
+.email-submit input{
+    background-color: #FFFFFF;
+    border: none;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    width: 60%;
+    padding: 25px 30px 25px 30px;
+    font-size: 18px;
+}
+.email-submit button{
+    background-color: #FF0000;
+    border: none;
+    border-bottom-right-radius: 50px ;
+    border-top-right-radius: 50px;
+    padding: 24px 30px;
+    color: #FFFFFF;
+    font-size: 20px;
+    width: 30%;
 }
