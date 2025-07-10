@@ -14,21 +14,26 @@ header{
     width: 1320px;
     background-image: url("../images/Banner Image.png");
     margin:0 auto;
-    background-position: cover;
-    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 .greeting{
     font-size: 32px;
     font-weight: normal;
     text-align: center;
     color: #FFFFFF;
+    margin: 0 auto;
     
     
 }
 
 .new-year-greeting{
+    background-image: url("../images/Rectangle 15.png");
+    background-size: cover;
     margin-top: 177px;
     padding-top: 177px;
+    text-align: center;
+    justify-content: center;
     
 }
 .party{
@@ -38,6 +43,7 @@ header{
     color: #FFFFFF;
     padding-left: 344px;
     padding-right: 344px;
+    padding-bottom: 177px;
     text-align: center;
 }
 
@@ -178,12 +184,13 @@ header{
 .section-5{
     margin-top: 120px ;
 }
+.holiday-sales img {
+    padding-top: 1px;
+}
 .holiday-sales{
    max-width: 1320px;
    text-align: center; 
    margin: 0 auto;
-   
-   
 }
 .holiday-sales h4{
    font-weight: 300;
@@ -290,4 +297,41 @@ header{
     color: #FFFFFF;
     font-size: 20px;
     width: 30%;
+}
+
+/* Footer Style */
+.main-footer{
+    background-color: #070212;
+    margin: 0 auto;
+}
+.footer{
+    width: 1600px;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    gap: 550px;
+}
+.title-cotainer{
+    margin-left: 140px;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 24px;
+}
+.title-cotainer2 {
+    margin-left: 140px;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.footer-logo{
+    margin-left: 640px;
+    display: block;
+}
+.last-title{
+    display: flex;
+    color: #FFFFFF;
+    gap: 840px;
+    margin-left: 145px;
+    padding: 25px;
 }
